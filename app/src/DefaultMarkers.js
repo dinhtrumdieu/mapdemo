@@ -22,7 +22,7 @@ function randomColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
 
-class DefaultMarkers extends React.Component {
+export default class DefaultMarkers extends React.Component {
   constructor(props) {
     super(props);
 
@@ -116,4 +116,3 @@ const styles = StyleSheet.create({
   },
 });
 
-module.exports = DefaultMarkers;

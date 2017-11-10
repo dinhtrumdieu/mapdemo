@@ -16,7 +16,7 @@ const LONGITUDE = -122.4324;
 const LATITUDE_DELTA = 0.0922;
 const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 
-class StaticMap extends React.Component {
+export default class StaticMap extends React.Component {
   constructor(props) {
     super(props);
 
@@ -115,4 +115,3 @@ const styles = StyleSheet.create({
   },
 });
 
-module.exports = StaticMap;
