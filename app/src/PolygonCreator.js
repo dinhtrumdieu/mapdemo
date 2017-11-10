@@ -18,7 +18,7 @@ const LATITUDE_DELTA = 0.0922;
 const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 let id = 0;
 
-class PolygonCreator extends React.Component {
+export default class PolygonCreator extends React.Component {
   constructor(props) {
     super(props);
 
@@ -211,4 +211,3 @@ const styles = StyleSheet.create({
   },
 });
 
-module.exports = PolygonCreator;

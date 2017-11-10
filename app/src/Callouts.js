@@ -18,7 +18,7 @@ const LATITUDE_DELTA = 0.0922;
 const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 const SPACE = 0.01;
 
-class Callouts extends React.Component {
+export default class Callouts extends React.Component {
   constructor(props) {
     super(props);
 
@@ -159,4 +159,3 @@ const styles = StyleSheet.create({
   },
 });
 
-module.exports = Callouts;

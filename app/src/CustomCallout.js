@@ -5,8 +5,8 @@ import {
 } from 'react-native';
 
 const propTypes = {
-  children: PropTypes.node.isRequired,
-  style: PropTypes.object,
+  children:"" ,
+  style: "",
 };
 
 export default class CustomCallout extends React.Component {
